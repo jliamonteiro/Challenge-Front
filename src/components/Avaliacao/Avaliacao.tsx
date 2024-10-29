@@ -118,14 +118,31 @@ export default function Avaliacao() {
   return (
     <section className="flex flex-col items-center mb-32">
       <h1 className="mx-4 text-2xl font-bold mt-6 mb-10 text-azulclaro min-[460px]:text-4xl md:text-5xl lg:text-6xl lg:mb-20 lg:mt-10">O que nossos clientes dizem</h1>
-      {/* Formulário para adicionar/editar depoimento */}
-      <div className="w-full max-w-md p-4 mb-8 bg-gray-200 rounded-lg shadow-md">
-        <h3 className="text-azul">Avalie-nos também!</h3>
-        <input type="text" placeholder="Nome" value={nomeCliente} onChange={(e) => setNomeCliente(e.target.value)} className="w-full p-2 mb-4 border rounded"/>
-        <input type="number" placeholder="Avaliação (1 a 5)" value={avaliacao} onChange={(e) => setAvaliacao(Number(e.target.value))} className="w-full p-2 mb-4 border rounded" min="1"max="5"/>
-        <textarea placeholder="Comentário" value={comentario} onChange={(e) => setComentario(e.target.value)} className="w-full p-2 mb-4 border rounded"></textarea>
-        <button onClick={handleSubmit} className="w-full p-2 bg-blue-500 text-white rounded"> {editandoId !== null ? "Atualizar" : "Adicionar"} Depoimento</button>
+      <div className="w-11/12 max-w-4xl mx-auto bg-white rounded-2xl shadow-xl mb-32">
+        <div className='w-full flex justify-center bg-azulclaro p-4 rounded-t-2xl'>
+          <h2 className="text-xl lg:text-3xl font-bold my-2 text-branco">Avalie-nos também!</h2>
+        </div>
+        {/* Formulário para adicionar/editar depoimento */}
+        <form onSubmit={handleSubmit} className="space-y-4 mb-8 p-4">
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <div className="flex-1">
+              <label htmlFor="nome" className="block text-sm font-medium text-gray-700 mb-1">Nome e Sobrenome</label>
+              <input type="text" placeholder="Nome" value={nomeCliente} onChange={(e) => setNomeCliente(e.target.value)} className="w-full border border-gray-300 rounded-md p-2"/>
+            </div>
+            <div className="flex-1">
+              <label htmlFor="avaliacao" className="block text-sm font-medium text-gray-700 mb-1">Avaliação</label>
+              <input type="number" placeholder="Avaliação (1 a 5)" value={avaliacao} onChange={(e) => setAvaliacao(Number(e.target.value))} className="w-full border border-gray-300 rounded-md p-2" min="1"max="5"/>
+            </div>
+          </div>
+          <div>
+            <label htmlFor="comentario" className="block text-sm font-medium text-gray-700 mb-1">Comentário</label>
+            <textarea placeholder="Fale como foi a sua experiência" value={comentario} onChange={(e) => setComentario(e.target.value)} className="w-full border border-gray-300 rounded-md p-2"></textarea>
+          </div>
+          <button onClick={handleSubmit} type="submit" className="bg-azulescuro text-white py-2 px-4 rounded-md hover:bg-blue-600">{editandoId !== null ? "Atualizar" : "Adicionar"} Depoimento</button>
+        </form>
+
       </div>
+
 
       {/* Carrossel de Depoimentos */}
       <div className="relative w-full overflow-hidden">
