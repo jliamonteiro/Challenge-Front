@@ -17,3 +17,9 @@ export type TipoLogin = {
     email: string;
     password: string;
 }
+
+export type TipoPeca = {
+    idPeca?: number;
+    nomePeca: string;
+    precoPeca: string;
+}
