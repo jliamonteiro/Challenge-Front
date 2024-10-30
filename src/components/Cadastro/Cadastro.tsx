@@ -84,12 +84,11 @@ export default function Cadastro({name, setName, email, setEmail, phone, setPhon
 
                     <div className="bg-cinza flex items-center gap-2.5 pl-2.5 rounded-xl">
                         <Image src={Calendario} alt='' />
-                        <input className={`border-none outline-none w-11/12 h-16 bg-transparent pl-2.5 text-2xl font-light lg:text-4xl text-preto ${errors.date ? 'border-red-500' : ''}`}
+                        <input className={`border-none outline-none w-11/12 h-16 bg-transparent text-gray-400 pl-2.5 text-2xl font-light lg:text-4xl ${errors.date ? 'border-red-500' : ''}`}
                             type="date" placeholder="Data de Nascimento" value={date} onChange={(e) => setDate(e.target.value)}/>
                     </div>
-                    {errors.date && <p className="text-red-500">{errors.date}</p>}
-                    
-                    {ageError && <p className="text-red-500">{ageError}</p>} {/* Mensagem de erro de idade */}
+                    {errors.date && <p className="text-red-500">{errors.date}</p>}                    
+                    {ageError && <p className="text-red-500">{ageError}</p>}
 
                     <div className="bg-cinza flex items-center gap-2.5 pl-2.5 rounded-xl">
                         <Image src={Senha} alt='' />
