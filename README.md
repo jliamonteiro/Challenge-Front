@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Descomplica Auto 🚗
+Este projeto foi desenvolvido como parte da disciplina de Front-End, para a Sprint 4 do Challenge da Porto Seguro
 
-## Getting Started
+## Descrição 📋 
+Descomplica Auto é um site baseado em inteligência artificial que facilita a resolução de problemas automotivos e agiliza processos frequentemente burocráticos. O aplicativo utiliza um chatbot para diagnosticar problemas com base nas descrições fornecidas pelo usuário, sugerir orçamentos e orientar sobre reparos simples.
 
-First, run the development server:
+### O site oferece uma experiência completa para os usuários, com diversas páginas e funcionalidades que facilitam o uso dos nossos serviços:
+- Orientações e Perguntas Frequentes: Páginas dedicadas a orientar os usuários sobre o funcionamento do serviço e a responder dúvidas comuns.
+- Formulário de Contato: Espaço para que os usuários enviem perguntas ou solicitem suporte de forma personalizada.
+- Cadastro de Veículos: Formulário onde os usuários podem adicionar e salvar informações sobre seus veículos, permitindo um acesso mais prático em futuras consultas.
+- Avaliação do Site: Formulário para os usuários avaliarem o site, contribuindo com feedback para melhorias contínuas.
+- Cadastro de Peças e Preços: Seção para adicionar peças de veículos, permitindo que outros clientes consultem a média de preços.
+- Equipe do Projeto: Página dedicada aos integrantes do projeto, com informações sobre quem somos e quem está por trás do desenvolvimento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Essas funcionalidades foram projetadas para tornar a navegação e o uso do site mais intuitivos e eficientes, garantindo uma experiência agradável e informativa.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Linguagem/Ferramentas utilizadas no projeto:
+<a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" align="center" height="50" width="60"/></a> 
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" align="center" height="50" width="60" /></a> 
+<a href="https://tailwindcss.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" align="center" height="50" width="60"/></a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" align="center" height="50" width="60"/></a>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## API realizada em:
+<a><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" align="center" height="50" width="60"/></a>
+           
+              
+### Integrantes 👥 
+- 👤 Julia Monteiro RM:557023
+- 👤 Sofia Andrade Petruk RM:556585
+- 👤 Victor Henrique Estrella Carracci RM:556206
 
-## Learn More
+## Link do vídeo
+https://youtu.be/KRsSyF7H9Pc
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Link do repositório
+https://github.com/jliamonteiro/Challenge-Front
