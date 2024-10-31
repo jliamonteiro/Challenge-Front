@@ -29,7 +29,7 @@ export default function Cadastro({name, setName, email, setEmail, phone, setPhon
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setAgeError(null); // Resetar mensagem de erro
+        setAgeError(null);
 
         // Verificar idade
         const today = new Date();
