@@ -23,3 +23,10 @@ export type TipoPeca = {
     nomePeca: string;
     precoPeca: string;
 }
+
+export type TipoOficina = {
+    idOficina?: number;
+    nome: string;
+    CNPJ: string;
+    endereco: string;
+}
