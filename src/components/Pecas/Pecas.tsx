@@ -125,10 +125,10 @@ export default function Pecas() {
         <ul className="space-y-4">
           {pecas.map((peca, index) => (
             <li key={index} className="p-4 border flex items-center justify-between border-gray-300 rounded-md bg-gray-200">
-              <h4 className="font-semibold text-xl lg:text-2xl">{peca.nomePeca} - R${peca.precoPeca}</h4>
+              <h4 className="font-semibold text-sm md:text-lg lg:text-xl">{peca.nomePeca} - R${peca.precoPeca}</h4>
               <div className="flex space-x-2">
-                <button onClick={() => EditarPeca(index)} className="bg-yellow-500 text-white py-1 px-3 rounded-md hover:bg-yellow-600">Editar</button>
-                <button onClick={() => DeletarPeca(index)} className="bg-red-500 text-white py-1 px-3 rounded-md hover:bg-red-600">Deletar</button>
+                <button onClick={() => EditarPeca(index)} className="bg-yellow-500 text-white py-1 px-3 text-sm md:text-lg rounded-md hover:bg-yellow-600">Editar</button>
+                <button onClick={() => DeletarPeca(index)} className="bg-red-500 text-white py-1 px-3 text-sm md:text-lg rounded-md hover:bg-red-600">Deletar</button>
               </div>
             </li>
           ))}

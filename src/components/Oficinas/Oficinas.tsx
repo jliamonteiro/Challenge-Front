@@ -59,7 +59,7 @@ export default function Oficinas() {
               <ul className="flex flex-col bg-[#DADADA] p-4 rounded-lg mb-6 lg:mx-16">
                 <div className="flex justify-between items-center">
                   <li className="text-[#001D5C] font-bold text-lg md:text-xl lg:text-2xl">{oficina.nome}</li>
-                  <li className="flex text-black font-semibold">CNPJ: {oficina.CNPJ}</li>
+                  <li className="flex text-black font-semibold text-sm md:text-base lg:text-lg">CNPJ: {oficina.CNPJ}</li>
                 </div>
                 <li className="text-center text-base md:text-lg my-4">{oficina.endereco}</li>
               </ul>
