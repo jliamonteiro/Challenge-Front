@@ -2,7 +2,7 @@
 Este projeto foi desenvolvido como parte da disciplina de Front-End, para a Sprint 4 do Challenge da Porto Seguro
 
 ## Descrição 📋 
-Descomplica Auto é um site baseado em inteligência artificial que facilita a resolução de problemas automotivos e agiliza processos frequentemente burocráticos. O aplicativo utiliza um chatbot para diagnosticar problemas com base nas descrições fornecidas pelo usuário, sugerir orçamentos e orientar sobre reparos simples.
+Descomplica Auto é um site baseado em inteligência artificial que facilita a resolução de problemas automotivos e agiliza processos frequentemente burocráticos. O aplicativo utiliza um chatbot para diagnosticar problemas com base nas descrições fornecidas pelo usuário e sugerir orçamentos.
 
 ### O site oferece uma experiência completa para os usuários, com diversas páginas e funcionalidades que facilitam o uso dos nossos serviços:
 - Orientações e Perguntas Frequentes: Páginas dedicadas a orientar os usuários sobre o funcionamento do serviço e a responder dúvidas comuns.
