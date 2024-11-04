@@ -31,7 +31,7 @@ Essas funcionalidades foram projetadas para tornar a navegação e o uso do site
 - 👤 Victor Henrique Estrella Carracci RM:556206
 
 ## Link do vídeo
-https://youtu.be/KRsSyF7H9Pc
+https://youtu.be/oJy5rVCAGPM
 
 ## Link do repositório
 https://github.com/jliamonteiro/Challenge-Front
