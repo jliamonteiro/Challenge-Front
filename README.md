@@ -36,5 +36,54 @@ https://youtu.be/KRsSyF7H9Pc
 ## Link do repositório
 https://github.com/jliamonteiro/Challenge-Front
 
+## Link do repositório de Java
+https://github.com/sofiapetruk/sprint04Java.git
+
 ## Link do site
 https://challengeporto.vercel.app
+
+
+# Como Rodar o Código 🚀
+## Clonando o Repositório
+- Clone o repositório front-end:
+
+```bash
+git clone https://github.com/jliamonteiro/Challenge-Front.git
+```
+
+- Clone o repositório da API (Java):
+```bash
+git clone https://github.com/sofiapetruk/sprint04Java.git
+```
+
+## Rodando o Front-End
+1. Navegue até o diretório do projeto:
+
+```bash
+cd Challenge-Front
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+3. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+4. O front-end estará disponível em: http://localhost:3000
+
+## Rodando a API (Java)
+1. Navegue até o diretório da API:
+
+```bash
+cd sprint04Java
+```
+
+2. Abra o projeto no IntelliJ
+
+3. Compile e execute a aplicação.
+
+4. A API estará rodando no endereço: http://localhost:8080
