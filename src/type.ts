@@ -28,5 +28,6 @@ export type TipoOficina = {
     idOficina?: number;
     nome: string;
     CNPJ: string;
+    telefone: string;
     endereco: string;
 }

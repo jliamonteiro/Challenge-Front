@@ -61,7 +61,7 @@ export default function Oficinas() {
                   <li className="text-[#001D5C] font-bold text-lg md:text-xl lg:text-2xl">{oficina.nome}</li>
                   <li className="flex text-black font-semibold text-sm md:text-base lg:text-lg">CNPJ: {oficina.CNPJ}</li>
                 </div>
-                <li className="text-center text-base md:text-lg my-4">{oficina.endereco}</li>
+                <li className="text-center text-base md:text-lg my-4">{oficina.endereco} - Tel:{oficina.telefone}</li>
               </ul>
             </div>
           ))}
